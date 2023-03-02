@@ -4,11 +4,11 @@ import 'dart:io';
 
 void main() {
   int a, result = 0;
-  stdout.write("\nEnter Last Number '9': ");
+  stdout.write("\nEnter Number : ");
   int? n = int.parse(stdin.readLineSync()!);
-  print("0");
+ 
   for (a = 0; a < n; a++) {
-    result = result + 3;
+    result = a * 3;
     print(result);
   }
 }
